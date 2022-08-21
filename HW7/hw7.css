@@ -1,0 +1,18 @@
+*{
+    display:inline-block
+    
+}
+ head {
+    display: none;
+ }
+ 
+a.star
+{
+    background: url(imgs2/star0.png);
+    width: 75px;
+    height: 78px;
+
+}
+a.star:hover {
+    background: url(imgs2/star1.png);
+}

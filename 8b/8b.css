@@ -1,0 +1,61 @@
+.biohazard {
+    position: absolute;
+    top: 350px;
+    left: 600px
+}
+
+.biohazard:hover {
+  transform: scale(2) ;
+  z-index: 1;
+  transition: 1s;
+  cursor: zoom-in;
+}
+
+.man {
+    position: absolute;
+    top: 330px;
+    left: 830px
+
+}
+.man:hover {
+    transform: scale(2) ;
+    z-index: 1;
+    transition: 1s;
+    cursor: zoom-in;
+}
+
+.yin {
+    position: absolute;
+    top: 550px;
+    left: 720px
+}
+
+.yin:hover {
+    transform: scale(2) ;
+    z-index: 1;
+    transition: 1s;
+    cursor: zoom-in;
+}
+
+.nosmoking {
+    position: absolute;
+    top: 400px;
+    left: 680px
+}
+
+.text {
+    position: relative;
+    top: 150px;
+    left: 10px;
+    font-size: 30px;
+}
+.text2 {
+    position: relative;
+    top: 700px;
+    left: 10px;
+    font-size: 30px;
+}
+
+
+
+/*с высотой текста при сужении окна не разобралась,как сделать*/

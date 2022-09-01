@@ -1,7 +1,14 @@
+@media only screen and (max-widht:800px){
 
-.shapka {
-        width: 600px;
-        font-size: 30px;
+
+    .shapka {
+        font-size: 50px;
         font-family: 'Times New Roman', Times, serif;
-        background-color: #4d3ab4;
+        background-color: #3d89c7;
     }
+    
+    table {
+        border: 3;
+    }
+   
+}

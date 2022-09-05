@@ -6,7 +6,7 @@
     "sidebar main"
     "footer footer";
   grid-template-rows: 60px 1fr 60px;
-  grid-template-columns: repeat( auto-fit 20% 1fr) ;
+  grid-template-columns:  auto-fit 20% 1fr;
 
 
   width: 130vh;
@@ -88,11 +88,10 @@ img {
     
 
 }
-/*
+
 @media only screen and (max-widht:550px){
     .grid {
         grid-column: auto;
     }
 
 } 
-*/

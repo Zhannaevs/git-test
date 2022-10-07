@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw15</title>
+</head>
+<body>
+    <script>
+
+        //min
+        
+        let numMin = [20, 5, 8, 24, 35, 81, 30, 14, 36, 47, 52, 19, 23, 33, 17, 64, 39, 73, 48, 30,];
+
+function min() {
+	for (let i = 0; i < numMin.length; i++) {
+		if (numMin[0] > numMin[i]) {
+			numMin[0] = numMin[i]
+		}
+	}
+	return console.log(numMin[0])
+}
+
+min()
+
+//max
+
+let numMax = [20, 5, 8, 24, 35, 81, 30, 14, 36, 47, 52, 19, 23, 33, 17, 64, 39, 73, 48, 30,];
+
+function max() {
+	for (let i = 0; i < numMax.length; i++) {
+		if (numMax[0] < numMax[i]) {
+			numMax[0] = numMax[i]
+		}
+	}
+	return console.log(numMax[0])
+}
+
+max()
+
+
+
+
+    </script>
+</body>
+</html>

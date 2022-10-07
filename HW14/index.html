@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> object </title>
+</head>
+<body>
+    <script>
+
+        //1
+        let obj1 = {
+            name: 'Dima',
+            age: 20,
+            hair: 'white',
+            habitats:{
+                isSmoking:false,
+                isDrinking:true,
+                isGay:true,
+                isLearning:true,
+            }
+        }
+
+        let obj2 = {
+            name: 'Dima',
+            age: 20,
+            hair: 'white',
+            habitats:{
+                isSmoking:false,
+                isDrinking:true,
+                isGay:true,
+                isLearning:true,
+            }
+        }
+      
+                function compare(obj1,obj2){
+        if(Object.keys(obj1).length == Object.keys(obj1).length){
+            console.log('compare')
+        }else{
+            console.log('not compare')
+            }
+        for (key in obj1){
+            if(obj1[key]==='object'){
+                for(key in obj1){
+                    if (obj1[key]===obj2[key]){
+                        return true;
+                    }else {
+                        return false;
+                    }
+                }
+            }
+            if (obj1[key]===obj2[key]){
+                return true;
+            }else{ 
+            return false;
+            }
+        }
+    }
+
+        compare(obj1,obj2)
+
+
+          //2 
+          
+        let obj1 = {
+            name: 'Dima',
+            age: 20,
+            hair: 'white',
+            habitats:{
+                isSmoking:false,
+                isDrinking:true,
+                isGay:true,
+                isLearning:true,
+            }
+        }
+
+        
+        
+        let obj2 = {
+            name: 'Dima',
+            age: 20,
+            hair: 'white',
+            habitats:{
+                isSmoking:false,
+                isDrinking:true,
+                isGay:true,
+                isLearning:true,
+            }
+        }
+
+        
+        function compare(obj1,obj2){
+        console.log(JSON.stringify(obj1) === JSON.stringify(obj2));
+        }
+
+            compare(obj1,obj2)
+        
+
+
+    </script>
+    
+</body>
+</html>

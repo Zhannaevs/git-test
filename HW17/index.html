@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw17</title>
+</head>
+<body>
+    <form name='search'>
+        <label>
+            Поиск на сайте
+            <input type='text' name='search'>
+        </label>
+        <input type='submit' value='Search!'>
+    </form>
+    <hr>
+    <form name='search-visitors'>
+        <table id="age-table">
+            <tr>
+                <td>Возраст</td>
+                <td id="age-list">
+                    <label>
+                        <input type="radio" name="age" value="young">больше 18</label>
+                    <label>
+                        <input type="radio" name="age" value="middle">18-50</label>
+                    <label>
+                        <input type="radio" name="age" value="inyears">больше 50</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Кроме того</td>
+                <td>
+                    <input type="text" name="information[0]" >
+                    <input type="text" name="information[1]" >
+                    <input type="text" name="information[2]" > 
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Search!">
+    </form>
+
+    <script src="skript.js"> </script>
+</body>
+</html>
